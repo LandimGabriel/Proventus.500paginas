@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo-container img {
+  height: 36px;
+  margin-right: 0.5rem;
+}
+
+.title {
+  font-size: 4rem;
+  color: #1877f2;
+  font-weight: bold;
+  margin: 2;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: #166fe5;
+}
+
+.login-form a {
+  color: #1877f2;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.login-form hr {
+  width: 100%;
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid #dddfe2;
+}
+
+.create-account-btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.create-account-btn:hover {
+  background-color: #36a420;
+}
