@@ -100,3 +100,50 @@ header {
 .create-account-btn:hover {
   background-color: #36a420;
 }
+footer {
+  background-color: #F6F7F9;
+  padding: 1.6rem 0;
+  color: #9CA3AF;
+  font-size: 0.8rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.footer-links a {
+  color: #9CA3AF;
+  margin-right: 1.6rem;
+}
+
+.footer-lang select {
+  border: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+  color: #9CA3AF;
+}
+
+.legal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  margin-top: 1.6rem;
+  border-top: 1px solid #D1D5DB;
+}
+
+.legal-links a {
+  color: #9CA3AF;
+  margin-right: 1.6rem;
+}
+
+.legal-text {
+  color: #9CA3AF;
+}
